@@ -24,5 +24,5 @@ LSTM-WordPredictor is a deep learning model for next-word prediction using Long 
 ##  Installation & Setup  
 1️⃣ **Clone the repository**  
 ```sh
-git clone https://github.com/yourusername/LSTM-WordPredictor.git
+git clone https://github.com/SanjanaDuraiswamy/LSTM-WordPredictor.git
 cd LSTM-WordPredictor
