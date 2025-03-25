@@ -42,3 +42,45 @@ Install the required dependencies:
 ```sh
 pip install -r requirements.txt
 ```
+## Training the Model
+
+Run the Jupyter Notebook:
+
+```sh
+jupyter notebook
+```
+
+Open `hyperparametertuningann.ipynb` to train and tune the LSTM & GRU model.
+
+## Running the Streamlit App
+
+After training, you can test the model using Streamlit:
+
+```sh
+streamlit run app.py
+```
+
+This will launch an interactive web UI where you can input the sequence of words and predict the next word
+
+## Model Deployment
+
+The model can be deployed using:
+
+- **Streamlit Cloud**
+- **Heroku / AWS / GCP (Future Scope)**
+
+## Usage
+
+- Modify `app.py` to enhance UI/UX.
+- Update `requirements.txt` if adding new libraries.
+- Train with different architectures for better accuracy.
+
+## Contributing
+
+Feel free to fork the repo and submit PRs for improvements!
+
+## License
+
+This project is licensed under the MIT License.
+
+---
